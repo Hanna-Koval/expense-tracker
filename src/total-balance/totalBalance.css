@@ -1,0 +1,63 @@
+.balance-card-container {
+  margin-bottom: 1.75rem;
+  background: linear-gradient(135deg, #1e2a24 0%, #243329 100%) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+.balance-title {
+    font-size: 0.8rem;
+  color: #9aa8a1;
+  margin-bottom: 0.25rem;
+  margin: 0;
+}
+
+.balance-amount {
+font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+  margin: 0;
+}
+
+.balance-amount.positive {
+    color: #7cb992;
+}
+
+.balance-amount.negative {
+    color: #e07a7a;
+}
+
+.break-style {
+  size: 1px;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.details-money {
+    display: flex;
+}
+
+.income-title,
+.expanse-title {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 0.2rem;
+    font-size: 0.8rem;
+    color: #9aa8a1;
+}
+
+
+.income-amount {
+font-size: 1.1rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+
+
+.expanse-amount {
+font-size: 1.1rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: #e07a7a;
+
+}
